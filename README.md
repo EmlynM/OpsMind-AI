@@ -43,7 +43,7 @@ streamlit run app.py
 Create a `.env` file:
 
 ```env
-HINDSIGHT_API_KEY=your_api_key
+HINDSIGHT_API_KEY=hsk_7ed51910f8b36aeabeb92ac055213de3_f248ddddefc17775
 HINDSIGHT_BASE_URL=https://api.hindsight.vectorize.io
 HINDSIGHT_BANK_ID=opsmind-incidents
 ```
