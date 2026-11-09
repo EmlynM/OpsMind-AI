@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OpsMind AI
 
 **Memory-powered Incident Response Agent** built for Hack with Hyderabad 3.0.
@@ -55,3 +56,7 @@ This prototype does not execute infrastructure commands. It provides advisory tr
 - [ ] Verify Hindsight recall/retain/reflect against your own cloud bank.
 - [ ] Record the demo video.
 - [ ] Add the hackathon article, social post, and video deliverables.
+=======
+# OpsMind-AI
+AI-powered incident management using persistent Hindsight memory
+>>>>>>> 21871f7b622b9d468fe3bd6ffb1ac974a5f7ce03
