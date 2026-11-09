@@ -63,13 +63,13 @@ AI-powered incident management using persistent Hindsight memory
 >>>>>>> 21871f7b622b9d468fe3bd6ffb1ac974a5f7ce03
 =======
 
-# 🧠 OpsMind AI
+# OpsMind AI 🧠
 
 ### Memory-Aware AI Incident Diagnosis and Resolution Assistant
 
 OpsMind AI is an AI-powered IT operations assistant that helps engineers diagnose production incidents using historical incident knowledge.
 
-## 🚀 Key Features
+## Features
 
 - Incident reporting and classification
 - AI-assisted root cause analysis
@@ -78,7 +78,7 @@ OpsMind AI is an AI-powered IT operations assistant that helps engineers diagnos
 - Verified fix storage
 - Memory-aware incident diagnosis
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - Python
 - Streamlit
@@ -86,39 +86,39 @@ OpsMind AI is an AI-powered IT operations assistant that helps engineers diagnos
 - REST API
 - Git and GitHub
 
-## 🔄 Workflow
+## Workflow
 
 1. Report a production incident.
 2. Retrieve relevant historical incidents.
 3. Generate diagnosis and recommendations.
 4. Engineer verifies the resolution.
 5. Save the verified fix to memory.
-6. Recall the knowledge during future incidents.
+6. Recall knowledge during future incidents.
 
-## ▶️ Run Locally
+## Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🔐 Environment Variables
+## Environment Configuration
 
-Create a `.env` file:
+Create a `.env` file containing:
 
 ```env
-HINDSIGHT_API_KEY=hsk_7ed51910f8b36aeabeb92ac055213de3_f248ddddefc17775
+HINDSIGHT_API_KEY=your_api_key
 HINDSIGHT_BASE_URL=https://api.hindsight.vectorize.io
 HINDSIGHT_BANK_ID=opsmind-incidents
 ```
 
-Never commit your `.env` file or expose API credentials.
+Never commit API keys or `.env` files.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 OpsMind AI provides advisory recommendations. Engineers must verify fixes before applying them.
 
-## 👩‍💻 Author
+## Author
 
 Emlyn M.
 >>>>>>> 5c96cff1dd6769381863393c62ca0882aba7f0cd
